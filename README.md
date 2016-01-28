@@ -25,7 +25,10 @@ Project to Spilt Bills
 >
 > brew install node
 > 
-> npm install mocha
+> npm install -g mocha sinon
+> 
+> npm install --save-dev --save-exact jsdom jsdom-global node-import
+> 
 
 ## Steps to Build:
 
@@ -35,4 +38,4 @@ Project to Spilt Bills
 > 
 > mocha test
 > 
-> python -m SimpleHTTPServer 8000   
+> python -m SimpleHTTPServer 8000
